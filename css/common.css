@@ -22,3 +22,25 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+
+.gallery {
+  list-style: none;
+}
+
+img {
+  animation: animate100 5000ms infinite;
+  border-radius: 10%;
+}
+
+@keyframes animate100 {
+  0% {
+  transform: rotate(0);
+  }
+  50% {
+  transform: rotate(360deg);
+  }
+  100% {
+  transform: rotate(0deg);
+  }
+}
