@@ -29,11 +29,11 @@ button {
 }
 
 img {
-  animation: animate100 5000ms infinite;
+  animation: animate360 5000ms infinite;
   border-radius: 10%;
 }
 
-@keyframes animate100 {
+@keyframes animate360 {
   0% {
   transform: rotate(0);
   }

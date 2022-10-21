@@ -4,7 +4,6 @@ form.addEventListener('submit', formSubmit);
 
 function formSubmit(event) {
     event.preventDefault();
-    console.log('eto sabmit formy');
      
     const formElem = event.currentTarget.elements;
     const email = formElem.email.value;

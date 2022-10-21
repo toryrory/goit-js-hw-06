@@ -23,10 +23,6 @@ const images = [
   },
 ];
 
-
-
-
- 
 const markup = images.map(({ url, alt }) =>
   `<li class = "js-item"><img src="${url}" alt="${alt}" width = 200 height = 150></li>`).join('');
 

@@ -20,7 +20,6 @@ for (let i = 0; i <= ingredients.length - 1; i += 1) {
   const listElem = document.createElement('li');
   listElem.classList.add('item');
   listElem.textContent = ingredients[i];
-  arr.push(listElem)
-  
+  arr.push(listElem);
 }
 const ingredientsList = document.querySelector('#ingredients').append(...arr);
