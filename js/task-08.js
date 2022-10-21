@@ -24,7 +24,8 @@ function formSubmit(event) {
 
 // const {elements: { email, password }} = event.currentTarget;
 
-//              ЧТО С ЭТИМ ДЕЛАТЬ
+
+//              Почему так не срабатывает?
     // const formDatas = new formData(event.currentTarget);
 // task-08.js:10 Uncaught ReferenceError: Cannot access 'formData' before initialization
     // at HTMLFormElement.formSubmit
