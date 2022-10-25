@@ -22,7 +22,7 @@ const categories = document.querySelector('#categories');
 const categoriesItem = categories.querySelectorAll('.item');
 console.log(`Number of categories: ${categoriesItem.length}`);
 
-for (let i = 0; i <= categoriesItem.length; i += 1) {
+for (let i = 0; i < categoriesItem.length; i += 1) {
     const categoriesItemTitle = categoriesItem[i].querySelector('h2').textContent;
     console.log(`Category: ${categoriesItemTitle}`);
     const categoriesItemElem = categoriesItem[i].querySelectorAll('li').length;

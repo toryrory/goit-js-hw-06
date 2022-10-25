@@ -15,10 +15,11 @@ function formSubmit(event) {
     }
 
     if (email === '' || password === '') {
-        alert('Please, fill in all the fields!!!')
-    }
-    console.log(formData)
+        alert('Please, fill in all the fields!!!');
+    } else {
+        console.log(formData);
     event.currentTarget.reset(formData);
+        }
 }
 
 // const {elements: { email, password }} = event.currentTarget;
